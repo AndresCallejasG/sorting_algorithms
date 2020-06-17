@@ -64,7 +64,7 @@ int split_array(int *array, int bottom, int top, size_t size)
 	i = bottom;
 	for (j = bottom; j < top; j++)
 	{
-		if (array[j] < pivot)
+		if (array[j] <= pivot)
 		{
 			if (j != i)
 			{
